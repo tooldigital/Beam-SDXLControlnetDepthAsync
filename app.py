@@ -74,7 +74,7 @@ def set_style(prompt, style):
         final_prompt= f"comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed"
         negative_prompt = f"photograph, deformed, glitch, noisy, realistic, stock photo"
     elif style == "Digital Art":
-        final_prompt= f"concept art {prompt} . digital artwork, illustrative, painterly, matte painting, highly detailed"
+        final_prompt= f"concept art {prompt} , digital artwork, illustrative, matte painting"
         negative_prompt = f"photo, photorealistic, realism, ugly"
     elif style == "Line Art":
         final_prompt= f"cline art drawing {prompt} . professional, sleek, modern, minimalist, graphic, line art, vector graphics"
