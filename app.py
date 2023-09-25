@@ -58,9 +58,6 @@ def set_style(prompt, style):
     elif style == "Analog Film":
         final_prompt= f"analog film photo {prompt} . faded film, desaturated, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage"
         negative_prompt = f"painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured"
-    elif style == "Renaissance":
-        final_prompt= f"Renaissance style {prompt} . Realistic, perspective, light and shadow, religious or mythological themes, highly detailed"
-        negative_prompt = f"ugly, deformed, noisy, blurry, low contrast, modernist, minimalist, abstract"
     elif style == "Anime":
         final_prompt= f"anime artwork {prompt} . anime style, key visual, vibrant, studio anime,  highly detailed"
         negative_prompt = f"photo, deformed, black and white, realism, disfigured, low contrast"
