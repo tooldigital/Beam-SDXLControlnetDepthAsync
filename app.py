@@ -95,7 +95,7 @@ def set_style(prompt, style):
         final_prompt= f"Renaissance style {prompt} . Realistic, perspective, light and shadow, religious or mythological themes, highly detailed"
         negative_prompt = f"ugly, deformed, noisy, blurry, low contrast, modernist, minimalist, abstract"
     elif style == "Old Masters":
-        final_prompt= f"Old masters styled painting {prompt} , highly detailed, matte painting"
+        final_prompt= f"Old masters styled oil painting {prompt} , highly detailed, matte painting"
         negative_prompt = f"ugly, deformed, noisy, blurry, low contrast, modernist, minimalist, abstract"
     else:
         final_prompt =prompt
