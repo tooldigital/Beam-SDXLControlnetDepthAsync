@@ -168,6 +168,7 @@ def load_models():
         use_safetensors=True,
         variant="fp16",
         torch_dtype=torch.float16,
+        cache_dir=cache_path,
     )
     
     pipe.enable_xformers_memory_efficient_attention()
